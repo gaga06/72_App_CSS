@@ -9,7 +9,7 @@ Il s'agit de faire les différents principaux éléments du CSS à la mano.
 
 ## Lien Heroku
 
-Je vous invite à consulter le site sur Heroku sur le lien suivant: <a href="https://my-app-css-candy.herokuapp.com/">Projet Heroku "Club Privé"</a>.
+Je vous invite à consulter le site sur Heroku sur le lien suivant: <a href="https://app-css-candy.herokuapp.com/">Projet Heroku "Mon app avec tout plein de CSS génial"</a>.
 
 * Pour commencer la lecture en développement :
 ```
