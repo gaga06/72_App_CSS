@@ -35,7 +35,7 @@ font-family: "Lobster", "Helvetica", "sans-serif";
   width: #random_number px;
 }
 .wrapper {
-background-color: #F6FFDD;
+background-color: #FFFFFF;
 }
 h1 {
   color: #7A4579;
@@ -44,3 +44,12 @@ h1, h2, h3 {
 font-family: "Lobster", "Helvetica", "sans-serif";
 text-align: center;
 }
+.acceuil {
+display: flex;
+justify-content: space-between;
+ }
+ .site {
+  display: flex;
+  flex-direction: row;
+
+ }

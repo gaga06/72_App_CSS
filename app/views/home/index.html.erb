@@ -2,7 +2,19 @@
 
 <h1>Candy Price</h1>
 <h2> Soyez mieux informés que vos clients! </h2>
+<div class="acceuil">
 
+<div class="tab">
+<ul class="nav nav-tabs nav-tabs-neutral justify-content-center" role="tablist" data-background-color="orange">
+                  <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="/contact" role="tab" aria-selected="false" aria-expanded="false">Me contacter</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="/propos" role="tab" aria-selected="false" aria-expanded="false">A propos</a>
+                  </li>
+                </ul>
+              </div>
+<div class="site">
 <!-- Mise en place des cards, leur css associé se trouve dans styleshhet/card.css -->
 <div class="cards">
   <div class="card"> <%= image_tag 'beach.jpg', :class => "card" %>
@@ -29,9 +41,12 @@
 </div>
 
 
+
 <!-- Mise en place des boutons, leur css associé se trouve dans styleshhet/button.css -->
 <div id="boutons">
 <button class="btn btn-success"><%= link_to "En savoir plus", propos_path %> </button>
 <button class="btn btn-warning"> <%= link_to "Me contacter", contact_path %> </button>
+</div>
+</div>
 </div>
 <br> <br> <br> <br>
