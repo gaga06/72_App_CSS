@@ -46,3 +46,12 @@
   color:#E6E6E6;
   font-size: 25px;
 }
+.dropdown-menu
+{
+  position: absolute;
+  will-change: transform;
+  top: 0px;
+  left: 0px;
+  transform:
+  translate3d(1px, -148px, 0px);
+}

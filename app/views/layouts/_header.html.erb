@@ -4,6 +4,15 @@
         <li id="nav-about"><a href="https://fr.wikipedia.org/wiki/Benchmarking"> Le Bench </a></li>
         <li id="nav-exp"><a href="http://www.e-marketing.fr/Thematique/management-1090/Breves/Fiche-metier-est-analyste-revenue-manager-308258.htm#mPOPsaHpCtkxJ1u1.97"> Le métier RM </a></li>
         <li id="nav-expert"><a href="https://www.liligo.fr/hotels.html"> L'exemple B2C </a></li>
-        <li id="avatar"><%= image_tag 'gaga.jpg', :class => 'rounded-circle img-raised' %> </li>
+        <li id="avatar">
+        <div class="dropdown">
+            <button class="rounded-circle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><%= image_tag 'gaga.jpg', :class => 'rounded-circle img-raised' %> </button>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" x-placement="top-start" >
+                     <li> Hello</li>
+                     <li> Qui veut faire</li>
+                    <li> ce projet avec moi ?</li>
+                    </ul>
+                  </div>
+         </li>
       </ul>
 
