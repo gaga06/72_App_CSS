@@ -1,0 +1,48 @@
+.cards {
+display: flex;
+justify-content: space-around;
+padding-bottom: 10px;
+
+}
+
+.cards-text {
+margin-left: 20px;
+padding-top: 20px;
+padding-left: 20px;
+position: relative;
+height: 250px;
+width: 1100px;
+background: linear-gradient(-225deg, rgba(255,255,255,0.6) 30%, rgba(255,255,255,0.5) 80%);
+background-size: cover;
+color: black;
+
+
+}
+.card {
+margin-left: 20px;
+position: relative;
+height: 250px;
+width: 400px;
+background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%);
+background-size: cover;
+color: white;
+}
+
+.card-user {
+position: absolute;
+top: 10px;
+left: 10px;
+}
+
+.card-tag {
+position: absolute;
+top: 10px;
+right: 10px;
+}
+
+.card-description {
+position: absolute;
+bottom: 10px;
+left: 10px;
+color: black;
+}

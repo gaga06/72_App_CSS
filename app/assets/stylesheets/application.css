@@ -1,0 +1,46 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ /* style.css */
+
+/* --- Import Google Fonts stylesheets --- */
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+/* --- Import Components stylesheets --- */
+@import url("avatar.css");
+@import url("navbar.css");
+@import url("button.css");
+@import url("footer.css");
+@import url("card.css");
+
+
+/* --- Fonts --- */
+
+body {
+font-family: "Lobster", "Helvetica", "sans-serif";
+}
+.container {
+  margin: 0 auto;
+  width: #random_number px;
+}
+.wrapper {
+background-color: #F6FFDD;
+}
+h1 {
+  color: #7A4579;
+}
+h1, h2, h3 {
+font-family: "Lobster", "Helvetica", "sans-serif";
+text-align: center;
+}

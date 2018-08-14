@@ -1,0 +1,37 @@
+<br> <br> <br>
+
+<h1>Candy Price</h1>
+<h2> Soyez mieux informés que vos clients! </h2>
+
+<!-- Mise en place des cards, leur css associé se trouve dans styleshhet/card.css -->
+<div class="cards">
+  <div class="card"> <%= image_tag 'beach.jpg', :class => "card" %>
+      <div class="card-user"> <%= image_tag 'gaga.jpg', :class => "rounded-circle img-raised"%>
+      </div>
+      <div class="card-tag"> #Revenue manager
+      </div>
+      <div class="card-description">
+        <h3>Aux hoteliers : </h3>
+        <p> Amenez les clients vers votre hotel!</p>
+      </div>
+  </div>
+  <br>
+  <div class="card"> <%= image_tag 'beach2.jpeg', :class => "card" %>
+      <div class="card-user"> <%= image_tag 'Bill.jpeg', :class => "rounded-circle img-raised"%>
+      </div>
+      <div class="card-tag"> #hotelier
+      </div>
+      <div class="card-description">
+        <h3>A mes clients : </h3>
+        <p> Nos tarifs sont justes!</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Mise en place des boutons, leur css associé se trouve dans styleshhet/button.css -->
+<div id="boutons">
+<button class="btn btn-success"><%= link_to "En savoir plus", propos_path %> </button>
+<button class="btn btn-warning"> <%= link_to "Me contacter", contact_path %> </button>
+</div>
+<br> <br> <br> <br>
