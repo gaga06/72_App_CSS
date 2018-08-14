@@ -1,52 +1,101 @@
-<br> <br> <br>
 
-<h1>Candy Price</h1>
-<h2> Soyez mieux informés que vos clients! </h2>
-<div class="acceuil">
 
-<div class="tab">
-<ul class="nav nav-tabs nav-tabs-neutral justify-content-center" role="tablist" data-background-color="orange">
-                  <li class="nav-item">
-                  <a class="nav-link" data-toggle="tab" href="/contact" role="tab" aria-selected="false" aria-expanded="false">Me contacter</a>
-                  </li>
-                  <li class="nav-item">
-                  <a class="nav-link" data-toggle="tab" href="/propos" role="tab" aria-selected="false" aria-expanded="false">A propos</a>
-                  </li>
-                </ul>
+<div id="acceuil">
+  <h1>Candy Price: Soyez mieux informés que vos clients!</h1>
+
+    <div class="part">
+
+             <div class="main">
+
+              <h3> Quels sont les indicateurs les plus importants pour un juste pricing? </h3>
+
+      <input id="tab1" type="radio" name="tabs" checked>
+      <label for="tab1">La concurrence</label>
+
+      <input id="tab2" type="radio" name="tabs">
+      <label for="tab2">La montée en charge</label>
+
+      <input id="tab3" type="radio" name="tabs">
+      <label for="tab3">Le calendrier</label>
+
+      <input id="tab4" type="radio" name="tabs">
+      <label for="tab4">Le taux d'occupation</label>
+
+      <div class="content">
+        <div id="content1">
+        <p>
+          La concurrence – Et oui! connaitre les tarifs de ses concurrents (ceux dont la prestation est identique) est indispensable pour un juste prix! Si vos concurrents sont moins chers que vous, vos clients feront leur choix.
+        </p>
+        </div>
+
+        <div id="content2">
+        <p>
+         La montée en charge: Sur une date donnée, vos chambres se remplissent à quel rythme? Si elles ne partent pas, c'est qu'il y a un problème de prix. Et si elles partent trop vite, aussi!
+        </p>
+        </div>
+
+        <div id="content3">
+        <p>
+          Le calendrier: Il va de soi que vous ne pratiquez pas les mêmes tarifs en période de vacances scolaires et en dehors des vacances scolaires. Il est important de pratiquer des prix spéciaux sur les vacances, les jours fériés, mais aussi sur les dates qur lesquelles des événements sont organisés dans la ville.
+        </p>
+        </div>
+
+        <div id="content4">
+        <p>
+         Le taux d'occupation: Il est à surveiller en permanence, sur toutes les dates. Plus votre établissement est chargé à une date et plus le prix doit grimper. La rareté fait le prix!
+        </p>
+        </div>
+      </div>
+
+      </div>
+      </div>
+
+
+    <div class="part">
+    <!-- Mise en place des cards, leur css associé se trouve dans styleshhet/card.css -->
+             <div id="leftpart">
+
+                    <div class="cards">
+
+                        <div id="pub">
+
+                        <div class="card"> <%= image_tag 'beach.jpg', :class => "card" %>
+                             <div class="card-user"> <%= image_tag 'gaga.jpg', :class => "rounded-circle img-raised"%>
+                            </div>
+                            <div class="card-tag"> #Revenue manager
+                            </div>
+                            <div class="card-description">
+                            <h3>Aux hoteliers : </h3>
+                            <p> Amenez les clients vers votre hotel!</p>
+                            </div>
+                        </div>
+
+                        <br>
+                        <div class="card"> <%= image_tag 'beach2.jpeg', :class => "card" %>
+                            <div class="card-user"> <%= image_tag 'Bill.jpeg', :class => "rounded-circle img-raised"%>
+                            </div>
+                             <div class="card-tag"> #hotelier
+                            </div>
+                             <div class="card-description">
+                            <h3>A mes clients : </h3>
+                             <p> Nos tarifs sont justes!</p>
+                            </div>
+                         </div>
+                      </div>
+<!-- Mise en place des boutons, leur css associé se trouve dans styleshhet/button.css -->
+                <div class="cards">
+                    <div id="boutons">
+                          <div class="bouton1">
+                          <button class="btn btn-success"><%= link_to "En savoir plus", propos_path %> </button>
+                        </div>
+                        <div class="bouton1">
+                          <button class="btn btn-warning"> <%= link_to "Me contacter", contact_path %> </button>
+                        </div>
+                    </div>
               </div>
-<div class="site">
-<!-- Mise en place des cards, leur css associé se trouve dans styleshhet/card.css -->
-<div class="cards">
-  <div class="card"> <%= image_tag 'beach.jpg', :class => "card" %>
-      <div class="card-user"> <%= image_tag 'gaga.jpg', :class => "rounded-circle img-raised"%>
-      </div>
-      <div class="card-tag"> #Revenue manager
-      </div>
-      <div class="card-description">
-        <h3>Aux hoteliers : </h3>
-        <p> Amenez les clients vers votre hotel!</p>
-      </div>
-  </div>
-  <br>
-  <div class="card"> <%= image_tag 'beach2.jpeg', :class => "card" %>
-      <div class="card-user"> <%= image_tag 'Bill.jpeg', :class => "rounded-circle img-raised"%>
-      </div>
-      <div class="card-tag"> #hotelier
-      </div>
-      <div class="card-description">
-        <h3>A mes clients : </h3>
-        <p> Nos tarifs sont justes!</p>
+          </div>
     </div>
   </div>
 </div>
 
-
-
-<!-- Mise en place des boutons, leur css associé se trouve dans styleshhet/button.css -->
-<div id="boutons">
-<button class="btn btn-success"><%= link_to "En savoir plus", propos_path %> </button>
-<button class="btn btn-warning"> <%= link_to "Me contacter", contact_path %> </button>
-</div>
-</div>
-</div>
 <br> <br> <br> <br>

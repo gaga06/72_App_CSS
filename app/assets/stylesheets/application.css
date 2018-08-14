@@ -23,6 +23,7 @@
 @import url("button.css");
 @import url("footer.css");
 @import url("card.css");
+@import url("tab.css");
 
 
 /* --- Fonts --- */
@@ -44,12 +45,35 @@ h1, h2, h3 {
 font-family: "Lobster", "Helvetica", "sans-serif";
 text-align: center;
 }
-.acceuil {
+#acceuil {
 display: flex;
+flex-direction: column;
 justify-content: space-between;
+border-top: 5px;
+border-bottom: 10px;
  }
- .site {
-  display: flex;
-  flex-direction: row;
 
- }
+#leftpart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:12px;
+
+}
+#pub {
+display: flex;
+justify-content: space-around;
+align-items: stretch;
+border-top: 10px white;
+border-bottom: 10px white;
+padding: 12px;
+}
+#boutons {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+border-top: 10px;
+border-bottom: 10px;
+padding: 12px;
+}
