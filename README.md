@@ -1,24 +1,28 @@
-# README
+# MON APP CSS - CANDY PRICE
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Par Gaëlle Gorgori (06 62 31 97 81)
 
-Things you may want to cover:
+## Consignes de l'exercice
 
-* Ruby version
+cf Cours THP <a href="https://www.thehackingproject.org/week/7/day/2"> UI Sprint Design </a>
+Il s'agit de faire les différents principaux éléments du CSS à la mano.
 
-* System dependencies
+## Lien Heroku
 
-* Configuration
+Je vous invite à consulter le site sur Heroku sur le lien suivant: <a href="https://.herokuapp.com/">Projet Heroku "Club Privé"</a>.
 
-* Database creation
+* Pour commencer la lecture en développement :
+```
+$cd Projet_css
+$bundle install
+$rails db:migrate
+$rails server
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Les répertoires utilisés sont les suivants:
+```
+Les Views
+Les Controllers
+Les routes
+Les assets
+```
